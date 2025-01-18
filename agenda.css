@@ -1,0 +1,127 @@
+body {
+  background-image: url('./img/fundo_sec.jpg');
+  background-repeat: no-repeat;
+}
+
+.cabecalho {
+  padding: 120px;
+  margin-left: 250px;
+}
+
+h2 {
+  color: rgb(5, 5, 5);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 90px;
+  margin-right: 275px;
+  margin-top: -270px;
+  text-align: center;
+}
+
+img {
+  margin-left: -45px;
+  margin-top: -55px;
+  height: 500px;
+  margin-right: 220px;
+  /* Espaço entre as imagens */
+}
+
+.conteudo {
+  margin-left: 530px;
+  margin-top: 300px;
+}
+
+section {
+  background-color: rgba(7, 43, 206, 0.801);
+  position: absolute;
+  padding-top: 200px;
+  padding-right: 80px;
+  padding-left: 80px;
+  border-radius: 20px;
+  margin-left: 50px;
+  margin-top: -400px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: -140px;
+  color: rgb(100, 10, 10);
+  background-color: white;
+  border-radius: 80px;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+label {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 45px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 20px;
+  padding: 4px 20px;
+}
+
+.spc_final{
+  background-color: rgba(228, 17, 17, 0);
+  padding: 300px;
+}
+/*---------------------------------------------------- começo das botões ---------------------------------------------------- */
+.botao_agendar {
+  margin-bottom: 40px;
+  margin-left: 50px;
+}
+
+.btn_agendar {
+  margin-top: -16px;
+  width: 400px;
+  height: 60px;
+  font-size: 30px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn_agendar:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(100, 10, 10);
+  transition: transform 0.9s ease;
+  transform: scale(1.1);
+}
+
+.botao_voltar {
+  margin-bottom: 40px;
+  margin-left: 180px;
+}
+
+.btn_voltar {
+  width: 150px;
+  height: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: rgb(3, 3, 3);
+  background-color: rgb(255, 254, 254);
+  font-family: initial;
+}
+
+.btn_voltar:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(100, 10, 10);
+  transition: transform 0.9s ease;
+  transform: scale(1.1);
+}
+
+input {
+  margin: 60px;
+  font-size: 25px;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-left: 0px
+}
